@@ -340,4 +340,6 @@ begin
     Exec('cmd.exe', '/C "taskkill /F /IM {#ConflictingProcess}"', '', SW_HIDE,
      ewWaitUntilTerminated, ResultCode)
   end;
+
+  Result := True
 end;
