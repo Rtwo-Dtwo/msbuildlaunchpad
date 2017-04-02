@@ -13,8 +13,8 @@ namespace Lextm.MSBuildLaunchPad
     {
         private string FileName { get; set; }
 
-        private const string Title = "MSBuild Launch Pad - {0}";
-        private const string TitleAdmin = "MSBuild Launch Pad (Administrator) - {0}";
+        private const string Title = "{0} - MSBuild Launch Pad";
+        private const string TitleAdmin = "{0} (Administrator) - MSBuild Launch Pad";
         private const string About = "About MSBuild Launch Pad (Version: {0})";
         private const string PadKey = @"Software\LeXtudio\MSBuildLaunchPad\MainForm";
 
@@ -111,7 +111,7 @@ namespace Lextm.MSBuildLaunchPad
 
         private void Form1Load(object sender, EventArgs e)
         {
-            Text = string.Format(CultureInfo.InvariantCulture, UacHelper.IsProcessElevated ? TitleAdmin : Title, Path.GetFileName(FileName));
+            Text = string.Format(CultureInfo.InvariantCulture, UacHelper.IsProcessElevated ? TitleAdmin : Title, FileName);
             tsbtnAbout.ToolTipText = string.Format(CultureInfo.InvariantCulture, About,
                                                    Assembly.GetExecutingAssembly().GetName().Version);
         }
