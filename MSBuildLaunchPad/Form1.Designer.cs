@@ -94,7 +94,8 @@
             this.tscbPlatform.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.tscbPlatform.Items.AddRange(new object[] {
             "(empty)",
-            "AnyCPU",
+            "Any CPU",
+            "AnyCPU",			
             "x86",
             "x64",
             "Itanium"});
