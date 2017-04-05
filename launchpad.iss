@@ -1,5 +1,5 @@
 #define MyAppID "{CF9D7790-D286-4CAA-B8DA-7CE78B067E25}"
-#define MyAppCopyright "Copyright (C) 2010-2011 Lex Li"
+#define MyAppCopyright "Copyright (C) 2010-2011 Lex Li, Rtwo-Dtwo"
 #define MyAppName "MSBuild Launch Pad"
 #define MyAppVersion GetFileVersion("MSBuildLaunchPad.exe")
 #define ConflictingProcess "msbuildlaunchpad.exe"
@@ -11,7 +11,7 @@
 [Setup]
 AppName={#MyAppName}
 AppVerName={#MyAppName}
-AppPublisher=Lex Li (lextm)
+AppPublisher=Lex Li (lextm), Rtwo-Dtwo
 AppPublisherURL=http://lextm.com
 AppSupportURL=http://lextm.com
 AppUpdatesURL=http://msbuildlaunchpad.codeplex.com

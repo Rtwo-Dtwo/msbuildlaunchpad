@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("LeXtudio")]
 [assembly: AssemblyProduct("MSBuildLaunchPad")]
-[assembly: AssemblyCopyright("Copyright © 2010-2011 Lex Li")]
+[assembly: AssemblyCopyright("Copyright © 2010-2011 Lex Li, Rtwo-Dtwo")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -33,7 +33,7 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.3.000402.39")]
-[assembly: AssemblyFileVersion("1.3.000402.39")]
+[assembly: AssemblyVersion("1.4.000405.01")]
+[assembly: AssemblyFileVersion("1.4.000405.01")]
 [assembly: CLSCompliant(true)]
 [assembly: NeutralResourcesLanguage("en-US")]
